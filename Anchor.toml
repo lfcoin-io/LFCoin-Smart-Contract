@@ -8,7 +8,7 @@ skip-lint = false
 token_biu = "7CcUfuZQEMP5xL5AdznuhzvQyBd665Y41GS4eRRaNVdQ"
 
 [programs.devnet]
-token_biu = "6LUVNKtbT9a86zoJRCgh8wKBNphcFexBe1uo353jS5mb"
+token_biu = "8p6VtUda1XAapPaFvu8CcViLYmG7M59dc3cwraYJVnwh"
 
 [programs.mainnet]
 token_biu = "EhQeU5ovyKfsT7mArWerJxLj9K2wmrC5PPKFDhTwuqqg"
