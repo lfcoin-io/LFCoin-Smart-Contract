@@ -1,6 +1,6 @@
 use anchor_lang::prelude::*;
 #[cfg(not(feature = "no-entrypoint"))]
-use {default_env::default_env, solana_security_txt::security_txt};
+use solana_security_txt::security_txt;
 
 pub mod constants;
 pub mod contexts;
@@ -15,15 +15,19 @@ declare_id!("LFBbSSCPVnJddba5SbWkJAfPxhdjpqajMTq1LM2Q5A9");
 
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
+    // Required fields
     name: "LF Coin",
     project_url: "https://lfcoin.io",
-    contacts: "Email: info@lfcoin.io, X: https://x.com/lfcoindao, Telegram: https://t.me/lfcoindao, Instagram: https://instagram.com/LFCoin.io",
+    contacts: "email: info@lfcoin.io, twitter: https://x.com/lfcoindao, telegram: https://t.me/lfcoindao",
     policy: "https://lfcoin.io/lfcoin_whitepaper.pdf",
 
     // Optional Fields
     preferred_languages: "en",
     source_code: "https://github.com/lfcoin-io/LFCoin-Smart-Contract",
+   
+    acknowledgements: ""
 }
+
 
 #[program]
 pub mod token_biu {
