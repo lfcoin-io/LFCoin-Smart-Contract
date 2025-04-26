@@ -8,10 +8,10 @@ skip-lint = false
 token_biu = "7CcUfuZQEMP5xL5AdznuhzvQyBd665Y41GS4eRRaNVdQ"
 
 [programs.devnet]
-token_biu = "8p6VtUda1XAapPaFvu8CcViLYmG7M59dc3cwraYJVnwh"
+token_biu = "LFBbSSCPVnJddba5SbWkJAfPxhdjpqajMTq1LM2Q5A9"
 
 [programs.mainnet]
-token_biu = "8p6VtUda1XAapPaFvu8CcViLYmG7M59dc3cwraYJVnwh"
+token_biu = "LFBbSSCPVnJddba5SbWkJAfPxhdjpqajMTq1LM2Q5A9"
 
 [registry]
 url = "https://api.mainnet-beta.solana.com"
